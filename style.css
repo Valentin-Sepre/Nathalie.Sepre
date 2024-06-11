@@ -1,0 +1,55 @@
+.dropdown-item {
+    color: dark; 
+    font-size: 18px; 
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: pink;
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: dark; 
+    font-size: 20px; 
+}
+
+ul li a:hover {
+    color: pink;
+}
+
+ul li a {
+    color: white;
+}
+
+.nav-item .nav-link:hover{
+    color: pink;
+}
+
+.text-img {
+    font-size: 20px;
+}
+
+.content-col {
+    text-align: center;
+}
+
+.content-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.centered-text {
+    background-image: url(images/flower-4546245_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.btn-send{
+    background-color: pink;
+}
