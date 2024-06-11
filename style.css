@@ -60,4 +60,5 @@ span{
 
 .phone{
     color: pink !important;
+    text-decoration: none !important;
 }
