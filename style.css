@@ -57,3 +57,7 @@ ul li a {
 span{
     color: pink;
 }
+
+.phone{
+    color: pink !important;
+}
