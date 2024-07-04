@@ -23,7 +23,7 @@
                         <img class="w-25 me-2 rounded-pill" src="images/logo.jpg" alt="Logo du site">
                         <p class="mb-0">Nathalie Sepré</p>
                     </a>
-                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler ms-auto border-0" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -31,18 +31,17 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="reflexologieDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Réflexologie
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="reflexologieDropdown">
-                                <li><a class="dropdown-item" href="preparationSeance.html">Préparer ma séance</a></li>
-                                <li><a class="dropdown-item" href="tarifs.html">Tarifs</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="parcours.html">Mon parcours</a>
+                            <a class="nav-link" href="parcours.html">Mon histoire</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="preparationSeance.html">Préparer ma séance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tarifs.html">Infos pratiques</a>
                         </li>
                     </ul>
                 </div>
@@ -50,85 +49,111 @@
         </nav>
     </head>
     <main>
-        <div class="container">
-            <div class="d-flex justify-content-center mt-3 text-decoration-underline">
-                <h1>Mes tarifs</h1>
-            </div>
-            <div class="mt-3 text-decoration-underline">
-                <h4>Réflexologie Plantaire ou palmaire :</h4>
-            </div>
-            <div class="mt-3 text-decoration-underline">
-                <p>Durée 1 heure</p>
-            </div>
-            <div>
-                Adultes : 50 euros
-                <br>
-                Protocole 3 séances sur 3 mois : 140 euros
-                <br>
-                Enfants et Adolescents (de 3 à 18 ans) : 40 euros
-                <br>
-                Bébé (– de 3 ans) : 30 euros
-            </div>
-            <div class="mt-3 text-decoration-underline">
-                <h4>Réflexologie Plantaire ou palmaire :</h4>
-                <p>Durée : 30 min</p>
-            </div>
-            <div>
-                <p>35 euros</p>
-            </div>
-            <div class="mt-3 text-decoration-underline">
-                <h4>Prestations découverte de la réflexologie : plantaire, palmaire, auriculaire, faciale.</h4>
-            </div>
-            <div class="mt-3 text-decoration-underline">
-                <p>Durée : 1 heure 20 minutes</p>
-            </div>
-            <div>
-                <p>60 euros (15 minutes pour chaque technique avec un temps d’échange avant et après la prestation)</p>
-            </div>
-            <div class="mt-3 text-decoration-underline">
-                <h4>Prestation DIEN CHAN (visage uniquement) :</h4>
-                <p>Durée : 30 min</p>
-                <div>
-                    <p>35 euros</p>
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center">
+                <div class="card card-custom">
+                    <div class="card-header card-header-custom">
+                        Mes infos
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <span class="spanCard text-white">Adresse :</span> 28 rue des Lilas, 72650 La Chapelle Saint
+                            Aubin
+                        </p>
+                        <p class="card-text">
+                            <span class="spanCard text-white">Téléphone :</span> 0659466762
+                        </p>
+                        <p class="card-text">
+                            <span class="spanCard text-white">Email :</span> nathalie.sepre.reflexologue@gmail.com
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div>
-                <p>Interventions possibles en extérieur : EHPAD, hôpitaux, écoles, entreprises...
-                    <br>
-                    Moyens de paiement : chèque – espèces
-                    <br>
-                    Remboursement possible selon votre mutuelle.
-                    <br>
-                    Une facture vous sera remise.
-                </p>
+        </div>
+
+        <div class="d-flex justify-content-center mt-5">
+            <h2>Mes tarifs</h2>
+        </div>
+
+        </div>
+        <div class="container mt-5">
+            <!-- Première ligne de cartes -->
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="card-title text-center">Réflexologie Plantaire ou palmaire :</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Durée 1 heure</p>
+                            <p>
+                                Adultes : 50 euros<br>
+                                Protocole 3 séances sur 3 mois : 140 euros<br>
+                                Enfants et Adolescents (de 3 à 18 ans) : 40 euros<br>
+                                Bébé (– de 3 ans) : 30 euros
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mt-3 mt-md-0 h-100">
+                        <div class="card-header">
+                            <h5 class="card-title text-center">Réflexologie Plantaire ou palmaire :</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Durée : 30 min</p>
+                            <p>35 euros</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deuxième ligne de cartes -->
+            <div class="row row-cols-1 row-cols-md-2 mt-5">
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h5 class="card-title text-center">Prestations découverte de la réflexologie :</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Durée : 1 heure 20 minutes</p>
+                            <p>60 euros</p>
+                            <p>15 minutes pour chaque technique avec un temps d’échange avant et après la prestation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mt-3 mt-md-0 h-100">
+                        <div class="card-header">
+                            <h5 class="card-title text-center">Prestation DIEN CHAN (visage uniquement) :</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Durée : 30 min</p>
+                            <p>35 euros</p>
+                            <p>Interventions possibles en extérieur : EHPAD, hôpitaux, écoles, entreprises...</p>
+                            <p>Moyens de paiement : chèque – espèces</p>
+                            <p>Remboursement possible selon votre mutuelle.</p>
+                            <p>Une facture vous sera remise.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
     <footer class="bg-dark text-white mt-5">
         <div class="container py-4">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>Contact</h5>
+            <div class="row mt-2">
+                <div class="col-md-12 d-grid justify-content-center">
+                    <h3>Contact</h3>
                     <p>
                         Adresse : <span>28 rue des Lilas, 72650 La Chapelle Saint Aubin</span><br>
-                        Téléphone : <span class="phone text-decoration-none">0659466762</span><br>
+                        Téléphone : <span class="phone">0659466762</span><br>
                         Email : <span>nathalie.sepre.reflexologue@gmail.com</span>
                     </p>
-                </div>
-                <div class="col-md-6">
-                    <h5>Liens rapides</h5>
-                    <ul class="list-unstyled mt-4">
-                        <li><a href="index.html" class="text-decoration-none">Accueil</a></li>
-                        <li><a href="preparationSeance.html" class="text-decoration-none">Préparer ma séance</a></li>
-                        <li><a href="tarifs.html" class="text-decoration-none">Tarifs</a></li>
-                        <li><a href="parcours.html" class="text-decoration-none">Mon parcours</a></li>
-                    </ul>
+                    <p class="mb-0">&copy; 2024 Nathalie Réflexologue. Tous droits réservés.</p>
+            <p>Site fait par Valentin Sepré.</p>
                 </div>
             </div>
-        </div>
-        <div class="bg-secondary text-center py-2">
-            <p class="mb-0">&copy; 2024 Nathalie Réflexologue. Tous droits réservés.</p>
-            <p>Site fait par Valentin Sepré</p>
         </div>
     </footer>
 </body>
